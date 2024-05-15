@@ -1,0 +1,90 @@
+.countdown {
+    display: block;
+   width: 40%;
+   height: 40%;
+   border: 2pt solid blue;
+   text-align: center;
+    margin: auto;
+    margin-top: 10%;
+}
+
+.countdown ul li {
+    list-style-type: none;
+    border: 2pt solid red;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+
+.countdown ul  {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 2pt solid aquamarine;
+}
+
+// Reponsive Notebook
+@media screen and (min-width: 771px) and (max-width: 1370px) {
+    .header_nav_list li a {
+        font-size: 1.2em;
+    }
+    .header_nav_list li  {
+        padding-right: 30px;
+    }
+    .logo {
+        padding-right: 30px;
+    }
+
+.footer_nav {
+    margin-top: 20%;
+    border-top: 2px solid #79C258;
+}
+}  
+
+// Reponsive Tablete
+@media screen and (min-width: 362px) and (max-width: 770px)  {
+
+    .header_nav ul {
+         margin: 0%;  
+        justify-content: space-around;   
+    }
+    .logo {
+        padding-right: 10px;
+    }
+    .header_nav_list li  {
+    padding-right: 15px; 
+    font-size: 0.9em;
+    }
+}   
+
+// Reponsive Desktop
+@media screen and (min-width: 1900px) {
+    .header_nav_list li  {
+        padding-right: 60px;
+    }
+    .logo {
+        padding-right: 40px;
+    }    
+    .header_nav_list li a {
+        font-size: 1.3em;
+    }
+}
+
+// Reponsive Mobile
+@media screen and (max-width: 361px) {    
+    .header_nav li {
+     display: none;
+    }
+     .logo {
+         width: 30%;
+    } 
+    .countdown {
+       width: 80%;
+       height: 80%;
+        margin-top: 40%;
+    }
+    .footer_nav {
+        margin-top: 35%;
+    }
+
+} 

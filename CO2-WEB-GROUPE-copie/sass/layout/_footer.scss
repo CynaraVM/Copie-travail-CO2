@@ -1,0 +1,18 @@
+
+
+
+// Style ligne menu en pied de page 
+.footer_nav_list li{
+    list-style-type: none;
+    font-weight: 800;
+}
+
+// Style de chaque anchor en pied de page 
+.footer_nav_item a {
+    text-decoration: none;
+    color: $color-darkgreen;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #3DAD5C;
+}
+
